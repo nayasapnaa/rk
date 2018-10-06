@@ -1,0 +1,49 @@
+body  {
+    background-image: url("1.jpg");
+   	background-size:cover;
+	background-position:center;
+}
+
+	
+h2{
+display:inline-block;
+margin-top:5%;
+margin-left:10%;
+font-family:days-later;
+font-size:6vw;
+color: #008675;
+text-shadow: -2px -2px 4px #000;
+}
+.blinking{
+margin-left:10%;
+display: inline-block;
+}
+
+
+
+p{
+font-size: 2.10vw;
+font-family: JosefinSans-bold;
+color:#fff;
+border-right: 4px solid #fff;
+
+overflow:hidden;
+white-space: nowrap;
+animation: typing 17s steps(40) forwards,
+			blink-caret 8s step-end infinite;
+animation-iteration-count: infinite;
+
+}
+
+
+@keyframes blink-caret{
+from,to{border-color: #transparent;}
+50%{border-color:#fff;}
+}
+@keyframes typing {
+0%{width:0%}
+30%{width:100%}
+80%{width:100%}
+90%{width:0%}
+100%{width:0%}
+}

@@ -1,0 +1,12 @@
+body
+{
+	margin:0;
+	padding:40px;
+	overflow: hidden;
+}
+#snow_fall
+{
+	width: 100%;
+	height: 100vh;
+	
+}
